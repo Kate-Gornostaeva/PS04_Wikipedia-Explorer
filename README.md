@@ -25,12 +25,15 @@
 ```bash
 export CHROMEDRIVER_PATH=/path/to/chromedriver
 
+
 (Для Windows используйте set вместо export.)
 
 ## Использование
 Запустите программу:
+
 ```bash
 python wikipedia_explorer.py
+
 
 Введите запрос для поиска на Википедии.
 
