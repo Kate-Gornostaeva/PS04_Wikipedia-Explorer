@@ -24,7 +24,7 @@
 
 ```bash
 export CHROMEDRIVER_PATH=/path/to/chromedriver
-
+```
 
 (Для Windows используйте set вместо export.)
 
@@ -33,7 +33,7 @@ export CHROMEDRIVER_PATH=/path/to/chromedriver
 
 ```bash
 python wikipedia_explorer.py
-
+```
 
 Введите запрос для поиска на Википедии.
 
