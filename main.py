@@ -29,7 +29,7 @@ def list_paragraphs():
         paragraphs = browser.find_elements(By.TAG_NAME, 'p')
         total_paragraphs = len(paragraphs)
         start_index = 0
-        group_size = 20  # Количество параграфов для вывода за один раз
+        group_size = 50  # Количество параграфов для вывода за один раз
 
         while start_index < total_paragraphs:
             # Выводим группу параграфов
