@@ -100,7 +100,6 @@ def handle_article():
             else:
                 print("Нет предыдущей страницы для возврата.")
         elif action == '4':
-            print("Программа завершена. До свидания!")
             browser.quit()
             exit()  # Завершение программы
         else:
@@ -112,7 +111,7 @@ def main():
         initial_query = input("Введите запрос для поиска в Википедии: ")
         search_wikipedia(initial_query.replace(" ", "_"))  # Заменяем пробелы на подчеркивания
         handle_article()  # Обрабатываем действия на текущей странице
-
+        print("Программа завершена. До свидания!")
 
 if __name__ == "__main__":
     main()
